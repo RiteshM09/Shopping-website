@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Assets/riteshblue logo.png" type="icon/image">
+    <script src="script.js"> </script>
+    <title>RItesh</TITLE></title>
+    <style> 
+    
+    </style>
+</head>
+
+
+<body>
+
+  
+    <!-- top Wrapper -->
+    <div class="Wrapper">
+     <div class="discount-alert">
+			<div class="discount-alert" id="myDiv">
+				<div class="d-flex">
+					<p class="Discount">Get Up to <strong>40% OFF</strong> New-Season Styles</p>	<a href="#" class="top-men">Men</a>
+					<a href="#" class="top-women">Women</a>
+					<p class="m">*Limited time only</p>
+				</div>
+      <button class="close-btn" onclick="removeDiv()">X</button>
+			</div>
+
+      
+  </div>
+
+		 </div>
+
+    <!-- sections -->
+    <section class="top-header">
+        <div class="container">
+          <!-- First Row -->
+          <div class="top-bar">
+            <p class="welcome-text">WELCOME TO OUR ETRANS STORE!</p>
+            <div class="top-links">
+              <a href="#" class="track-order">Track Order</a>
+              <a href="#">About</a>
+              <a href="#">Our Stores</a>
+              <a href="#">Blog</a>
+              <a href="#">Contact</a>
+              <a href="#">Help & FAQs</a>
+           
+            </div>
+             <div class="dropdown">
+      <button class="dropbtn" id="dropdownBtn">
+      <img src="Assets/LANGUAGE_FLAG/flag english.svg" alt="English Flag" class="flag-img"> ENG
+      </button>
+      <div class="dropdown-content">
+      <a href="#" onclick="setLanguage('england.png', 'English')"><img src="Assets/LANGUAGE_FLAG/flag english.svg" alt="English Flag"> ENG</a>
+      <a href="#" onclick="setLanguage('india.png', 'Hindi')"><img src="Assets/LANGUAGE_FLAG/indian_language.webp" alt="Hindi Flag"> HINDI</a>
+      <a href="#" onclick="setLanguage('germany.png', 'German')"><img src="Assets/LANGUAGE_FLAG/german language.png" alt="German Flag"> GERMAN</a>
+      </div>
+      </div>
+      
+      <!-- 3 icons  -->
+      <div class="social-icons">
+        <div id="social-icons1"><i class="fa-brands fa-facebook-f"></i> </div>
+
+        <div id="social-icons1"><i class="fa-brands fa-twitter"></i> </div>
+        
+        <div id="social-icons1"><i class="fa-brands fa-linkedin"></i> </div>
+
+        </div>
+
+
+       </div>
+    </section>
+
+          <!-- 3rd Row -->
+          <div class="middle-bar">
+            <div class="logo border">
+            </div>
+            
+            <div class="nav-search">
+            <div class="search-bar">
+              <input type="text" placeholder="Search for Products" class="search-input">
+            </div>
+
+            <div class="categories-options">
+              <select class="search-select">
+                <option>All Categories</option>
+                <option>Men</option>
+                <option>Women</option>
+                <option>Kids</option>
+              </select>
+            </div>
+            <div id="searchbar" > <i  class="fa-solid fa-magnifying-glass" ></i> </div>
+            
+        </div>
+        <!-- helpline box -->
+        <div class="helpline-icon"> <i class="fa-solid fa-headphones-simple"></i> 
+        </div>
+
+        <div class="helpline-container">
+          
+          <p class="helpline-text">CALL US NOW</p>
+          
+          <P class="hepline-no">+011 5827918</P>
+        </div>
+
+          <!-- 3 icons  -->
+          <div class="icons-3">
+          <div id="icons"><i class="fa-regular fa-user"></i> </div>
+
+          <div id="icons"><i class="fa-regular fa-heart"></i> </div>
+          
+          <div id="icons"><i class="fa-solid fa-bag-shopping"></i> </div>
+          
+          <span>0</span>
+          </div>
+          
+        </div>
+    
+      
+
+
+        <!--nav bar -->
+    
+      <!-- <section id="hearder">
+            <nav class="navbar">
+              <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a>
+                </li>
+                <li><a href="#">Shop</a></li>
+                <li class="dropdown">
+                  <a href="#">Blog</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Latest Posts</a></li>
+                    <li><a href="#">Trending Topics</a></li>
+                    <li><a href="#">Archived Blogs</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+      </section> -->
+      <div class="nav4">
+      <div class="menu_bar"> 
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li class="menu_items"><a href="#">CATEGORIES <i class="fa-solid fa-caret-down"> </i></a>
+            <div class="row_1">
+              <div class="col">
+               <div class="column_heading">FASHION</div> 
+                <ul>
+                  <li><a href="#">causal t-shirts</a></li>
+                  <li><a href="#">foraml shirts</a></li>
+                  <li><a href="#">jackets</a></li>
+                  <li><a href="#">jeans</a></li>
+                  <li><a href="#">dresses</a></li>
+                  <li><a href="#">sneakers</a></li>
+                  <li><a href="#">belts</a></li>
+                  <li><a href="#">sport shoes</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <div class="column_heading">ELECTRONICS</div> 
+                <ul>
+                  <li><a href="#">mobile phones</a></li>
+                  <li><a href="#">laptops</a></li>
+                  <li><a href="#">mackbook</a></li>
+                  <li><a href="#">television</a></li>
+                  <li><a href="#">lighting</a></li>
+                  <li><a href="#">smart watch</a></li>
+                  <li><a href="#">samsung phone</a></li>
+                  <li><a href="#">PC monitors</a></li>
+                </ul>
+              </div>
+
+              <div class="col_3"> </div>
+
+            </div>
+          </li>
+          <li class="shop_menu"><a href="#">SHOP <i class="fa-solid fa-caret-down"></i> </a>
+            <div class="shop_dropdown">
+          <ul>
+            <li class="shop_layout"><a href="#">shop layouts <i class="fa-solid fa-caret-right rightarrow" ></i> </a>
+              <div class="layout_dropdown">
+                <ul>
+                  <li><a href="#">shop grid - left sidebar</a></li>
+                  <li><a href="#">shop grid - right sidebar</a></li>
+                  <li><a href="#">shop list - left sidebar</a></li>
+                  <li><a href="#">shop list - right sidebar</a></li>
+                  <li><a href="#">shop grid - top filter</a></li>
+                  <li><a href="#">shop list - top filter</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="shop_pages"><a href="#">shop pages <i class="fa-solid fa-caret-right rightarrow2"></i></a>
+            <div class="shop_pages_dropdown">
+              <ul>
+                <li><a href="#"> Shop Cart</a></li>
+                <li><a href="#"> Shop Categories</a></li> 
+                <li><a href="#"> Checkout details</a></li>
+                <li><a href="#"> Checkout shipping</a></li>
+                <li><a href="#"> Checkout Payment</a></li>
+                <li><a href="#"> Checkout review</a></li>
+                <li><a href="#"> checkout  complete</a></li>
+                <li><a href="#"> order  tracking</a></li>
+                <li><a href="#"> product comparision</a></li>
+              </ul>
+            </div>
+            </li>
+            
+            <li><a href="#">about us</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">sign in </a></li>
+            <li><a href="#">sign up</a></li>
+            <li><a href="#">forget password</a></li>
+          </ul>
+            </div>
+          </li>
+          <li><a href="#">BLOB</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">CONTACT US</a></li>
+          <li><a href="#">OUR STORE</a></li>
+          <li class="My_account"><a href="#">MY ACCOUNT <i class="fa-solid fa-caret-down"></i></a>
+          <div class="My_account_dropdown">
+            <ul>
+              <li><a href="#">Dashboard</a></li>
+              <li><a href="#">Downloads</a></li>
+              <li><a href="#">orders</a></li>
+              <li><a href="#">payment methods</a></li>
+              <li><a href="#">user details</a></li>
+
+            </ul>
+          </div>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+
+      <!-- nav bar end -->
+
+
+      <div class="slider-container">
+        <button class="nav-button prev" onclick="changeSlide(-1)">←</button>
+        <button class="nav-button next" onclick="changeSlide(1)">→</button>
+        
+        <div class="slider-track">
+            <!-- First Slide -->
+            <div class="slide">
+                <div class="content-left">
+                    <h1>Complete your look with<br>New Men's Accessories</h1>
+                    <p>Hats & Caps, Sunglasses, Bags & much more...</p>
+                    <a href="#" class="shop-now-btn">SHOP NOW</a>
+                </div>
+                <div class="product-image">
+                    <img src="Assets/sliding img/shoes img.png" alt="Product 1">
+                </div>
+            </div>
+
+            <!-- Second Slide -->
+            <div class="slide">
+                <div class="content-left">
+                    <h1>Premium Sports Collection<br>2024 Edition</h1>
+                    <p>Experience comfort and style with our latest collection</p>
+                    <a href="#" class="shop-now-btn">SHOP NOW</a>
+                </div>
+                <div class="product-image">
+                    <img src="Assets/sliding img/shoes img.png" alt="Product 2">
+                </div>
+            </div>
+
+            <!-- Third Slide -->
+            <div class="slide">
+                <div class="content-left">
+                    <h1>Running Essentials<br>For Every Athlete</h1>
+                    <p>Professional grade equipment for peak performance</p>
+                    <a href="#" class="shop-now-btn">SHOP NOW</a>
+                </div>
+                <div class="product-image">
+                    <img src="Assets/sliding img/shoes img.png" alt="Product 3">
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-dots">
+            <span class="dot active" onclick="goToSlide(0)"></span>
+            <span class="dot" onclick="goToSlide(1)"></span>
+            <span class="dot" onclick="goToSlide(2)"></span>
+        </div>
+    </div>
+
+
+    <!-- section 6 Order shipping details -->
+    <section class="shipping"> 
+      <div class="shipping-container1"> 
+        <div class="icon-col1"><i class="fa-solid fa-truck"></i></div>
+        <div class="col1"> 
+          <h6 class="text1-col1"> FREE SHIPPING & RETURN </h6>
+          <p class="text2-col1">Free shipping on all orders over ₹1999</p>
+        </div>
+        </div>
+
+          <div class="shipping-container2"> 
+            <div class="icon-col2"><i class="fa-solid fa-dollar-sign"></i></div>
+            <div class="col2"> 
+              <h6 class="text1-col2"> FREE SHIPPING & RETURN </h6>
+              <span class="text2-col2">Free shipping on all orders over ₹1999</span>
+            </div>
+            </div>
+
+              <div class="shipping-container3"> 
+                <div class="icon-col3"><i class="fa-solid fa-headset"></i></div>
+                <div class="col3"> 
+                  <h6 class="text1-col3"> FREE SHIPPING & RETURN </h6>
+                  <span class="text2-col3">Free shipping on all orders over ₹1999</span>
+                </div>
+              </div>
+       </div>
+    </section>
+
+    <!-- section 6 end -->
+    <!-- gender-categories section 7 -->
+
+    <section class="gender-categories ">
+    
+     <div class="gender-categories1 ">
+      <img src="Assets/gender-wears/mens_wear-.png">
+      <div class="col1-mens">
+        <div class="mens-wear"> Mens' Wear </div>
+          <div class="staring-price1">Starting at ₹599</div>   
+         <button class="mens-button"> SHOP NOW </button>
+        </div>
+      </div>
+    
+
+         <div class="gender-categories2">
+          <img src="Assets/gender-wears/womens_wear-.png">
+          <div class="col2-womens">
+            <div class="womens-wear"> Womens' Wear </div>
+              <div class="staring-price2">Starting at ₹499 </div>   
+             <button class="womens-button"> SHOP NOW </button>
+            </div>
+         </div>
+
+             <div class="gender-categories3">
+              <img src="Assets/gender-wears/kids_wear.png">
+              <div class="col3-kids">
+                <div class="kids-wear"> Kids' Wear </div>
+                  <div class="staring-price3">Starting at ₹399</div>   
+                 <button class="kids-button"> SHOP NOW </button>
+                </div>
+             </div>
+      
+     </div>
+    </section> 
+
+     <!-- section 7 end -->
+     <!-- section 8 Feature Product top -->
+     <section class="feature_section">
+     <div class="feature_product">
+        <h7 class="Feature_text" >FEATURED PRODUCT'S</h7>
+        <button class="button_MoreProducts"> More Products <div class="more"> <i class="fa-solid fa-angle-right"></i></div> </button>
+      </div>
+      <!-- product grid -->
+      <div class="grid_container">
+    <div class="Product_grid">
+      <div class="items" id="item-1"><img src="Assets/grid FProduct1/product 1 tshirt.png" alt="prouct 1 t-shirt"> 
+        <div class="items_card">
+        <h2>T-Shirts </h2>
+        <h3>White T-shirts</h3>
+        <div class="price_grid">
+        <span>₹999</span>
+        <h3>₹499</h3>
+        <p class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+        </p>
+      </div>
+      <div class="cart_area">
+        <button class="b1" data-name="cart" ><i class="fa-solid fa-cart-plus"></i> Add to cart</button>
+        
+        <span class="button_2"><button  data-name="quick view" ><i class="fa-solid fa-magnifying-glass-plus"></i> quick view</button></span>
+      </div>
+
+      </div>
+      </div>
+
+      <!-- item1 end -->
+
+      <div class="items" id="item-2"><img src="Assets/grid FProduct1/product 2 balzer.png" alt="balzer">
+        <div class="items_card">
+        <h2>Suits</h2>
+        <h3>Two-Piece Formal Suit</h3>
+        <div class="price_grid">
+          <span>₹999</span>
+          <h3>₹499</h3>
+          <p class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+          </p>
+        </div>
+        <div class="cart_area">
+          <button class="b1" data-name="cart" ><i class="fa-solid fa-cart-plus"></i> Add to cart</button>
+          
+          <span class="button_2"><button  data-name="quick view" ><i class="fa-solid fa-magnifying-glass-plus"></i> quick view</button></span>
+        </div>
+      </div>
+      </div>
+      <div class="items" id="item-3"><img src="Assets/grid FProduct1/product 3 pant.png" alt="pant">
+      <div class="items_card">
+        <h2>Jeans  </h2>
+        <h3>Blue Skinny Fit Jeans </h3>
+        <div class="price_grid">
+          <span>₹999</span>
+          <h3>₹499</h3>
+          <p class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </p>
+        </div>
+        <div class="cart_area">
+          <button class="b1" data-name="cart" ><i class="fa-solid fa-cart-plus"></i> Add to cart</button>
+          
+          <span class="button_2"><button  data-name="quick view" ><i class="fa-solid fa-magnifying-glass-plus"></i> quick view</button></span>
+        </div>
+        
+      </div>
+      </div>
+      <div class="items"><img src="Assets/grid FProduct1/product image 4.png" alt="jacket">
+        <div class="items_card">
+        <h2>Jackets</h2>
+        <h3>Neon sport jacket</h3>
+        <div class="price_grid">
+          <span>₹999</span>
+          <h3>₹499</h3>
+          <p class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </p>
+        </div>
+        <div class="cart_area">
+          <button class="b1" data-name="cart" ><i class="fa-solid fa-cart-plus"></i> Add to cart</button>
+          
+          <span class="button_2"><button  data-name="quick view" ><i class="fa-solid fa-magnifying-glass-plus"></i> quick view</button></span>
+        </div>
+      </div>
+      </div>
+      <div class="items"><img src="Assets/grid FProduct1/product image 5 shoes.png" alt="shoes">
+        <div class="items_card">
+        <h2>Mens footwear </h2>
+        <h3>multi-color Sport shoes</h3>
+        <div class="price_grid">
+          <span>₹999</span>
+          <h3>₹499</h3>
+          <p class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+          </p>
+        </div>
+        <div class="cart_area">
+          <button class="b1" data-name="cart" ><i class="fa-solid fa-cart-plus"></i> Add to cart</button>
+          
+          <span class="button_2"><button  data-name="quick view" ><i class="fa-solid fa-magnifying-glass-plus"></i> quick view</button></span>
+        </div>
+      </div>
+      </div>
+      <div class="items"><img src="Assets/grid FProduct1/product image 6 .png" alt="sofa">
+        <div class="items_card">
+        <h2>sofa </h2>
+        <h3>dark grey 1 seater sofa</h3>
+        <div class="price_grid">
+          <span>₹999</span>
+          <h3>₹499</h3>
+          <p class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </p>
+        </div>
+        <div class="cart_area">
+          <button class="b1" data-name="cart" ><i class="fa-solid fa-cart-plus"></i> Add to cart</button>
+          
+          <span class="button_2"><button  data-name="quick view" ><i class="fa-solid fa-magnifying-glass-plus"></i> quick view</button></span>
+        </div>
+      </div> 
+      </div>
+      <div class="items"><img src="Assets/grid FProduct1/product image 7.png" alt="watch">
+        <div class="items_card"> 
+        <h2>Smart watch </h2>
+        <h3>Smart Watch </h3>
+        <div class="price_grid">
+          <span>₹999</span>
+          <h3>₹499</h3>
+          <p class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </p>
+        </div>
+        <div class="cart_area">
+          <button class="b1" data-name="cart" ><i class="fa-solid fa-cart-plus"></i> Add to cart</button>
+          
+          <span class="button_2"><button  data-name="quick view" ><i class="fa-solid fa-magnifying-glass-plus"></i> quick view</button></span>
+        </div>
+        </div>
+      </div>
+      <div class="items"><img src="Assets/grid FProduct1/product image 8.png" alt="heels">
+        <div class="items_card">
+        <h2>Ladies footwear </h2>
+        <h3>Heels</h3>
+        <div class="price_grid">
+          <span>₹999</span>
+          <h3>₹499</h3>
+          <p class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </p>
+        </div>
+        <div class="cart_area">
+          <button class="b1" data-name="cart" ><i class="fa-solid fa-cart-plus"></i> Add to cart</button>
+          
+          <span class="button_2"><button  data-name="quick view" ><i class="fa-solid fa-magnifying-glass-plus"></i> quick view</button></span>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   </section>
+     <!-- section 8 end  -->
+
+
+<!-- end -->
+    <script src="script.js"></script>
+
+  </div>   
+
+
+</body>
+</html>
