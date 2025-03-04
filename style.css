@@ -283,7 +283,9 @@ body{
 /* helpline box end */
   /* 3icons */
   .icons-3{
+  
     display: flex;
+    position: relative;
     gap: 20px;
     font-size: 25px;
     margin-left: 5rem;
@@ -299,8 +301,8 @@ body{
   border-radius: 50%;
 
   position: absolute;
-  top:144px;
-  right: 228px;
+  bottom: -3px;
+  right: -10px;
 
   cursor: pointer;
 }
