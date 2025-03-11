@@ -1145,3 +1145,41 @@ hr{
 
 }
 /* New arrival end */
+
+/* sale section */
+
+.Sale_container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+
+  overflow: hidden;
+}
+
+.sale1 img,
+.sale2 img,
+.sale4 img{
+ height: 10%;
+ 
+}
+
+.sale3{
+  /* background-image: url("Assets/fashion.png"); */
+  background-repeat: no-repeat;
+}
+
+.sale1{
+  position: relative;
+}
+.sale1 span{
+  position:absolute;
+  right: 0;
+  margin: 1rem;
+}
+
+.items_area1 {
+  padding: 1rem;
+}
+
+.items_area1 h5 {
+    font-size: 1.5vw;
+}
