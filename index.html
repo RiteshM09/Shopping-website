@@ -76,9 +76,13 @@
 
           <!-- 3rd Row -->
           <div class="middle-bar">
-            <div class="side-nav">
-              <i class="fa-solid fa-bars"></i>
+            <div class="side-nav area">
+              <button class="side-button">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              
             </div>
+           
 
             <div class="logo border" >
             </div>
@@ -122,7 +126,110 @@
           </div>
           
         </div>
-    
+
+     <!-- hidden vertical navbar  -->
+     <div class="nav5" id="demo"> <button id="nav5btn" class="close-btn" onclick="myFunction()">X</button>
+      <div class="menu_bar5">
+        <h1 id="nav5-text">Navigation</h1> 
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li class="menu_items"><a href="#">CATEGORIES <i class="fa-solid fa-caret-down"> </i></a>
+            <div class="row_1" id="row_1_5">
+              <div class="col">
+               <div class="column_heading" id="color-class1" >FASHION</div> 
+                <ul>
+                  <li><a href="#">causal t-shirts</a></li>
+                  <li><a href="#">foraml shirts</a></li>
+                  <li><a href="#">jackets</a></li>
+                  <li><a href="#">jeans</a></li>
+                  <li><a href="#">dresses</a></li>
+                  <li><a href="#">sneakers</a></li>
+                  <li><a href="#">belts</a></li>
+                  <li><a href="#">sport shoes</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <div class="column_heading" id="color-class2">ELECTRONICS</div> 
+                <ul>
+                  <li><a href="#">mobile phones</a></li>
+                  <li><a href="#">laptops</a></li>
+                  <li><a href="#">mackbook</a></li>
+                  <li><a href="#">television</a></li>
+                  <li><a href="#">lighting</a></li>
+                  <li><a href="#">smart watch</a></li>
+                  <li><a href="#">samsung phone</a></li>
+                  <li><a href="#">PC monitors</a></li>
+                </ul>
+              </div>
+
+              <div class="col_3"> </div>
+
+            </div>
+          </li>
+          <li class="shop_menu"><a href="#">SHOP <i class="fa-solid fa-caret-down"></i> </a>
+            <div class="shop_dropdown">
+          <ul>
+            <li class="shop_layout"><a href="#">shop layouts <i class="fa-solid fa-caret-right rightarrow"></i> </a>
+              <div class="layout_dropdown">
+                <ul>
+                  <li><a href="#">shop grid - left sidebar</a></li>
+                  <li><a href="#">shop grid - right sidebar</a></li>
+                  <li><a href="#">shop list - left sidebar</a></li>
+                  <li><a href="#">shop list - right sidebar</a></li>
+                  <li><a href="#">shop grid - top filter</a></li>
+                  <li><a href="#">shop list - top filter</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="shop_pages"><a href="#">shop pages <i class="fa-solid fa-caret-right rightarrow2"></i></a>
+            <div class="shop_pages_dropdown">
+              <ul>
+                <li><a href="#"> Shop Cart</a></li>
+                <li><a href="#"> Shop Categories</a></li> 
+                <li><a href="#"> Checkout details</a></li>
+                <li><a href="#"> Checkout shipping</a></li>
+                <li><a href="#"> Checkout Payment</a></li>
+                <li><a href="#"> Checkout review</a></li>
+                <li><a href="#"> checkout  complete</a></li>
+                <li><a href="#"> order  tracking</a></li>
+                <li><a href="#"> product comparision</a></li>
+              </ul>
+            </div>
+            </li>
+            
+            <li><a href="#">about us</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">sign in </a></li>
+            <li><a href="#">sign up</a></li>
+            <li><a href="#">forget password</a></li>
+          </ul>
+            </div>
+          </li>
+          <li><a href="#">BLOB</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">CONTACT US</a></li>
+          <li><a href="#">OUR STORE</a></li>
+          <li class="My_account"><a href="#">MY ACCOUNT <i class="fa-solid fa-caret-down"></i></a>
+          <div class="My_account_dropdown">
+            <ul>
+              <li><a href="#">Dashboard</a></li>
+              <li><a href="#">Downloads</a></li>
+              <li><a href="#">orders</a></li>
+              <li><a href="#">payment methods</a></li>
+              <li><a href="#">user details</a></li>
+
+            </ul>
+          </div>
+          </li>
+          
+        </ul>
+      </div>
+      <div class="extra-space"></div>
+    </div>     
+     
+     
+     <!-- vertical navbar end-->
       
 
 
@@ -168,7 +275,7 @@
             </div>
           </li>
           <li class="shop_menu"><a href="#">SHOP <i class="fa-solid fa-caret-down"></i> </a>
-            <div class="shop_dropdown">
+            <div class="shop_dropdown" id="dropdown_3">
           <ul>
             <li class="shop_layout"><a href="#">shop layouts <i class="fa-solid fa-caret-right rightarrow" ></i> </a>
               <div class="layout_dropdown">
