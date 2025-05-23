@@ -349,17 +349,8 @@ html, body {
   margin-left: 15px ;
 }
 
-@media (max-width:996px){
-  .middle-bar{
-    justify-content: center;
-  }
-  .logo {
-    display: none;
-
-  }
 
 
-}
  /* vertical hidden nav bar */
  .extra-space{
   /* display: block; */
@@ -389,6 +380,15 @@ html, body {
   height: 100%; 
   z-index: 3;
  }
+
+ @media (max-width:996px) {
+  #demo:checked{
+    display: flex;
+  }
+
+ } 
+
+
 
  .menu_bar5{
   background-color: #6f8b9c;
@@ -693,8 +693,17 @@ html, body {
     width: 48px;
     height: 35px;
   }
- 
 
+@media (max-width:996px){
+    .middle-bar{
+      justify-content: center;
+    }
+    .logo {
+      display: none;
+    }
+  }
+
+  
 @media (max-width:996px){
   
   .nav4{
@@ -708,13 +717,13 @@ html, body {
    left: 25px;
   }
 
+
   /* .side-nav:active{
 
 
-  } */
-  
-  
+  } */  
 }
+
 @media (min-width:997px){
   .nav4{
     display: block;
